@@ -16,6 +16,11 @@ class ComposerStaticInit2d6d15a8f6cc4bfbfd4a2943a6c4df59
     );
 
     public static $prefixLengthsPsr4 = array (
+        'c' => 
+        array (
+            'chillerlan\\Settings\\' => 20,
+            'chillerlan\\QRCode\\' => 18,
+        ),
         'Y' => 
         array (
             'YOURLS\\' => 7,
@@ -23,6 +28,7 @@ class ComposerStaticInit2d6d15a8f6cc4bfbfd4a2943a6c4df59
         'W' => 
         array (
             'WpOrg\\Requests\\' => 15,
+            'WhichBrowser\\' => 13,
         ),
         'S' => 
         array (
@@ -35,6 +41,7 @@ class ComposerStaticInit2d6d15a8f6cc4bfbfd4a2943a6c4df59
         'P' => 
         array (
             'Psr\\Log\\' => 8,
+            'Psr\\Cache\\' => 10,
             'POMO\\' => 5,
         ),
         'M' => 
@@ -58,6 +65,14 @@ class ComposerStaticInit2d6d15a8f6cc4bfbfd4a2943a6c4df59
     );
 
     public static $prefixDirsPsr4 = array (
+        'chillerlan\\Settings\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/chillerlan/php-settings-container/src',
+        ),
+        'chillerlan\\QRCode\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/chillerlan/php-qrcode/src',
+        ),
         'YOURLS\\' => 
         array (
             0 => __DIR__ . '/../../..' . '/includes',
@@ -65,6 +80,11 @@ class ComposerStaticInit2d6d15a8f6cc4bfbfd4a2943a6c4df59
         'WpOrg\\Requests\\' => 
         array (
             0 => __DIR__ . '/..' . '/rmccue/requests/src',
+        ),
+        'WhichBrowser\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/whichbrowser/parser/src',
+            1 => __DIR__ . '/..' . '/whichbrowser/parser/tests/src',
         ),
         'Symfony\\Polyfill\\Php72\\' => 
         array (
@@ -89,6 +109,10 @@ class ComposerStaticInit2d6d15a8f6cc4bfbfd4a2943a6c4df59
         'Psr\\Log\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+        ),
+        'Psr\\Cache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/cache/src',
         ),
         'POMO\\' => 
         array (
